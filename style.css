@@ -1,0 +1,38 @@
+body{
+background-image: linear-gradient(to right,rgba(207, 83, 21, 1) 0%, rgba(216, 146, 24, 1) 24%, rgba(253, 134, 29, 1) 60%);
+ }
+ header {
+    width: 100%;
+   
+}
+ul{
+     list-style: none; 
+      display: flex;
+       gap: 2rem;
+     margin: 0;
+      padding: 0;
+        }
+nav { 
+      max-width: 1120px;
+      margin: 0 auto;
+       padding: 1.5rem 2rem;
+      align-items: center;
+      display: flex;
+       flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+     text-transform: uppercase;
+        }
+ main {
+          display: flex;
+           flex-direction: column;
+
+ }
+ section header {
+   border-top: 2px solid #c9a84c;
+   padding-top: 1.5rem;     /*linha dourada header*/
+}
+
