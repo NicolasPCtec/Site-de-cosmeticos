@@ -24,8 +24,7 @@ nav {
        flex-direction: row;
     justify-content: space-between;
 }
-.titulo-brilhante {
-   
+.logo {
     font-size: 32px;
     font-weight: 600;
      text-transform: uppercase;
