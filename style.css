@@ -35,7 +35,16 @@ nav {
 
  }
  section header {
-   border-top: 2px solid #c9a84c;
+   border-top: 2px solid #ffff;
    padding-top: 1.5rem;     /*linha dourada header*/
+}
+span{
+   color: aliceblue;
+}
+h1{
+   color: aliceblue;
+}
+p{
+   color: aliceblue;
 }
 
