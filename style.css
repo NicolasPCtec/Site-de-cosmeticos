@@ -25,45 +25,11 @@ nav {
     justify-content: space-between;
 }
 .titulo-brilhante {
-   /* 1. Força o elemento a ocupar o espaço correto */
-   display: inline-block; 
-   width: 100%; /* Ou um valor fixo se preferir */
    
-   font-size: 32px;
-   font-weight: 600;
-   text-transform: uppercase;
-
-   /* 2. Garante que a cor base não interfira no brilho */
-   color: transparent; 
-
-   background-image: linear-gradient(to right, 
-       #4d4d4d 0%, 
-       #4d4d4d 40%, 
-       #fff 50%, 
-       #4d4d4d 60%, 
-       #4d4d4d 100%
-   );
-
-   /* 3. Ajuste do tamanho e posicionamento */
-   background-size: 200% auto;
-   background-position: 0% center; /* Ponto de partida */
-   
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-
-   animation: brilho-passante 3s linear infinite;
-}
-
-@keyframes brilho-passante {
-   /* De 0% a 200% para garantir que o brilho atravesse todo o texto */
-   from {
-       background-position: 0% center;
-   }
-   to {
-       background-position: 200% center;
-   }
-}
+    font-size: 32px;
+    font-weight: 600;
+     text-transform: uppercase;
+        }
  main {
           display: flex;
            flex-direction: column;
