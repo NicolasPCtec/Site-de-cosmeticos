@@ -3,7 +3,14 @@ body{
    background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    ;
+   
+   font-family: "Italiana", sans-serif;
+      font-weight: 400;
+      font-style: normal;
  }
+    
+    
+ 
  header {
     width: 100%;
    
@@ -25,10 +32,15 @@ nav {
     justify-content: space-between;
 }
 .logo {
-    font-size: 32px;
-    font-weight: 600;
-     text-transform: uppercase;
-        }
+   
+      font-family: "Italiana", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40px;
+    
+    
+ }
+        
  main {
           display: flex;
            flex-direction: column;
@@ -39,10 +51,15 @@ nav {
    padding-top: 1.5rem;     /*linha dourada header*/
 }
 span{
-   color: rgb(90, 9, 9);
-}
+   color: rgb(255, 255, 255);
+      }
+    
+
 h1{
    color: aliceblue;
+   font-family: "Italiana", sans-serif;
+      font-weight: 400;
+      font-style: normal;
 }
 p{
    color: aliceblue;
