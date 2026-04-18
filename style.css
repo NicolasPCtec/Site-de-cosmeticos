@@ -1,7 +1,7 @@
 body{
    background: #EB5757;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to right, #000000, #32000e, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    ;
    
    font-family: "Italiana", sans-serif;
@@ -18,14 +18,14 @@ body{
 ul{
      list-style: none; 
       display: flex;
-       gap: 2rem;
+       gap: 4rem;
      margin: 0;
       padding: 0;
         }
 nav { 
       max-width: 1120px;
       margin: 0 auto;
-       padding: 1.5rem 2rem;
+       padding: 1.5rem 0rem;
       align-items: center;
       display: flex;
        flex-direction: row;
@@ -34,9 +34,11 @@ nav {
 .logo {
    
       font-family: "Italiana", sans-serif;
-      font-weight: 400;
+      font-weight: 500;
       font-style: normal;
       font-size: 40px;
+      margin-left: 0;
+     
     
     
  }
@@ -47,11 +49,12 @@ nav {
 
  }
  section header {
-   border-top: 2px solid #ffff;
+   border-top: 2px solid #f6921d;
    padding-top: 1.5rem;     /*linha dourada header*/
 }
 span{
-   color: rgb(255, 255, 255);
+   color:#f6921d;
+   
       }
     
 
