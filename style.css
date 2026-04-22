@@ -1,70 +1,87 @@
-body{
-   background: #EB5757;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #000000, #32000e, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   ;
-   
-   font-family: "Italiana", sans-serif;
-      font-weight: 400;
-      font-style: normal;
- }
-    
-    
- 
- header {
-    width: 100%;
-   
+
+/* body*/
+body {
+    background: black;
+    font-family: 'Italiana', serif;
 }
-ul{
-     list-style: none; 
-      display: flex;
-       gap: 4rem;
-     margin: 0;
-      padding: 0;
-        }
-nav { 
-      max-width: 1120px;
-      margin: 0 auto;
-       padding: 1.5rem 0rem;
-      align-items: center;
-      display: flex;
-       flex-direction: row;
-    justify-content: space-between;
+
+/* header */
+.topo {
+    height: 80px;
+   background: linear-gradient(to right, #000000, #32000e, #000000);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
+
+nav {
+    display: flex;
+    
+    align-items: center;
+    height: 100%;
+    padding: 0 40px;
+}
+
+/* logo */
 .logo {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+/* menu */
+ul.menu-esquerda {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+ul li {
+    margin-left: 50px;
    
-      font-family: "Italiana", sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      font-size: 40px;
-      margin-left: 0;
-     
-    
-    
- }
-        
- main {
-          display: flex;
-           flex-direction: column;
-
- }
- section header {
-   border-top: 2px solid #f6921d;
-   padding-top: 1.5rem;     /*linha dourada header*/
-}
-span{
-   color:#f6921d;
-   
-      }
-    
-
-h1{
-   color: aliceblue;
-   font-family: "Italiana", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-}
-p{
-   color: aliceblue;
 }
 
+ul img {
+    width: 28px;
+}
+
+/* banner */
+.banner{
+    height: calc(100vh - 80px); /* Altura da tela menos o pixels: para não sobrar*/
+
+    background-image: url("imagens/Fundo\ .jpeg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+
+    position: relative;
+    overflow: hidden; /* impede a imagem de passar da linha */
+}
+
+/* OVERLAY ESCURO */
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.877), rgba(77, 2, 2, 0.247));
+}
+
+/* texto */
+.banner-text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 500px;
+}
+
+/* titulo */
+.banner-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* texto */
+.banner-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
