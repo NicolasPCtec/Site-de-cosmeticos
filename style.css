@@ -22,7 +22,7 @@ nav {
 
 /* logo */
 .logo {
-    color: rgb(255, 255, 255);
+    color: rgb(247, 203, 9);
     font-size: 28px;
 }
 
@@ -70,7 +70,7 @@ ul img {
 .banner-text {
     position: relative;
     z-index: 2;
-    color: white;
+    color: rgb(255, 255, 255);
     max-width: 500px;
 }
 

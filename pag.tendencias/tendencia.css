@@ -1,0 +1,41 @@
+/* body*/
+body {
+    background: black;
+    font-family: 'Italiana', serif;
+}
+
+/* header */
+.topo {
+    height: 80px;
+   background: linear-gradient(to right, #000000, #32000e, #000000);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+nav {
+    display: flex;
+    
+    align-items: center;
+    height: 100%;
+    padding: 0 40px;
+}
+
+/* logo */
+.logo {
+    color: rgb(247, 203, 9);
+    font-size: 28px;
+}
+
+/* menu */
+ul.menu-esquerda {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+ul li {
+    margin-left: 50px;
+   
+}
+
+ul img {
+    width: 28px;
+}
