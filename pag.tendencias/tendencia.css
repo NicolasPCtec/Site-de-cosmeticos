@@ -1,18 +1,23 @@
-/* body*/
+/* body */
 body {
-    background: black;
+    background: rgb(255, 255, 255);
     font-family: 'Italiana', serif;
+    margin: 0;
+    
+  
 }
+
+
 
 /* header */
 .topo {
     height: 80px;
-   background: linear-gradient(to right, #000000, #32000e, #000000);
-    border-bottom: 2px solid rgb(255, 255, 255);
+    background: linear-gradient(to right, #000000, #32000e, #000000);
+    border-bottom: 2px solid rgb(255, 230, 0);
 }
+
 nav {
     display: flex;
-    
     align-items: center;
     height: 100%;
     padding: 0 40px;
@@ -33,9 +38,44 @@ ul.menu-esquerda {
 
 ul li {
     margin-left: 50px;
-   
 }
 
 ul img {
     width: 28px;
+}
+
+
+/* texto */
+.banner-text {
+    text-align: center;        /* centraliza o texto interno */
+    color: rgb(0, 0, 0);
+}
+
+/* subtítulo */
+.banner-text p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* título */
+.banner-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* titulo */
+.banner-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* texto */
+.banner-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    
 }
