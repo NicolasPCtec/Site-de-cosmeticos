@@ -1,23 +1,19 @@
-/* body */
+/* body*/
 body {
-    background: rgb(255, 255, 255);
+    background: #FFFAFA;
     font-family: 'Italiana', serif;
-    margin: 0;
-    
-  
+    margin: 0%;
 }
-
-
 
 /* header */
 .topo {
     height: 80px;
-    background: linear-gradient(to right, #000000, #32000e, #000000);
-    border-bottom: 2px solid rgb(255, 230, 0);
+   background: linear-gradient(to right, #000000, #32000e, #000000);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
-
 nav {
     display: flex;
+    
     align-items: center;
     height: 100%;
     padding: 0 40px;
@@ -25,7 +21,7 @@ nav {
 
 /* logo */
 .logo {
-    color: rgb(247, 203, 9);
+    color: white;
     font-size: 28px;
 }
 
@@ -38,38 +34,79 @@ ul.menu-esquerda {
 
 ul li {
     margin-left: 50px;
+   
 }
 
 ul img {
     width: 28px;
 }
 
-
-/* texto */
 .banner-text {
-    text-align: center;        /* centraliza o texto interno */
-    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
 }
 
-/* subtítulo */
-.banner-text p {
-    font-size: 16px;
+.lancamento {
+    font-size: 13px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #5a2e0a;
     margin-bottom: 8px;
 }
 
-/* título */
 .banner-text h1 {
-    font-size: 48px;
+    font-family: 'Italiana', serif;
+    font-size: clamp(60px, 8vw, 96px);
+    color: #1e0e03;
+    line-height: 0.9;
     margin: 0;
 }
 
-/* titulo */
-.banner-text h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-style: normal;
+.subtitulo {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+.brilhe {
+    font-family: 'Italiana', serif;
+    font-size: clamp(52px, 7vw, 84px);
+    font-style: italic;
+    color: #1e0e03;
+}
+
+.ja {
+    font-family: 'Italiana', serif;
+    font-size: clamp(52px, 7vw, 84px);
+    font-weight: 700;
+    color: #1e0e03;
+}
+
+.banner-text p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #3d1f08;
+    max-width: 360px;
+    margin-top: 20px;
+}
+
+.produtos {
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.produtos img {
+  width: 90%; /* controla o tamanho geral */
+  max-width: 1200px; /* limite igual ao design */
 }
 
 /* texto */
