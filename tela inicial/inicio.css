@@ -13,7 +13,8 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #1a0d0d, #4a2419);
-    color: #f5d7c5;
+    margin: 0%;
+
   }
 
   /* Container principal dividido em texto e imagem */
@@ -37,3 +38,4 @@
     letter-spacing: 3px;
     margin-bottom: 20px;
   }
+ 
