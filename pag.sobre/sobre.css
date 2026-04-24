@@ -80,6 +80,15 @@ ul img {
     line-height: 1.5;
     text-align: center;
     
+} 
+
+/* img de cada integrante */
+ .container-sobre {
+    display: flex;
+    justify-content: center; /* centralização */
+    gap: 40px; /* espaçamento entre os cards */
+    flex-wrap: wrap; /* quebra linha  */
+    margin-top: 50px;
 }
 .imagem-sobre {
    width: 200px;   /* controla o tamanho */
@@ -93,4 +102,25 @@ ul img {
     color: #ffffff;}
 .subtitulo-sobre {
     font-size: 16px;
-    color: #ffffff;}
+    color: #ffffff;
+}
+
+   /* box de cada integrante */
+ .container-sobre {
+    display: flex;
+    justify-content: center; /* centralização */
+    gap: 40px; /* espaçamento entre os cards */
+    flex-wrap: wrap; /* quebra linha  */
+    margin-top: 50px;
+}
+
+.caixa-sobre {
+    text-align: center;
+    color: white;
+}
+
+.imagem-sobre {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
