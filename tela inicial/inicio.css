@@ -1,0 +1,39 @@
+/* Remove margens padrão e define a fonte principal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Fundo geral da página */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1a0d0d, #4a2419);
+    color: #f5d7c5;
+  }
+
+  /* Container principal dividido em texto e imagem */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  /* Área do texto */
+  .content {
+    width: 45%;
+  }
+
+  /* Texto pequeno superior */
+  .subtitle {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+  }
